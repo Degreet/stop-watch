@@ -8,3 +8,36 @@
   font-family: Lato, Roboto, sans-serif;
   outline: none;
 }
+
+:root {
+  --padding-circle: 30%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  background: #fafafa;
+}
+
+section {
+  position: absolute;
+}
+
+section div {
+  position: absolute;
+  top: var(--padding-circle);
+  left: var(--padding-circle);
+  right: var(--padding-circle);
+  bottom: var(--padding-circle);
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #bfbfbf;
+}
